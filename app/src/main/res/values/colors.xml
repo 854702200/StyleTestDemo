@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="water">#884ca4ae</color>
+    <color name="write">#FFC8C8C8</color>
+    <color name="maincolor02">#b1bed4</color>
+    <color name="write1">#FFF5EE</color>
+    <color name="rippelColor">#00bbff</color>
+    <color name="Main_loading">#D81B60</color>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <include
+        layout="@layout/layout_titlebar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/maincolor02">
+    </View>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+
+
+            <include
+                layout="@layout/layout_upperbody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <include
+                layout="@layout/layout_from_listview"
+                android:layout_width="match_parent"
+                android:layout_height="325dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="3dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textSize="18dp"
+                android:textColor="#FFFF"
+                android:text="灭菌前拍照及扫描" />
+
+            <include
+                layout="@layout/layout_photograph_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:textSize="18dp"
+                android:textColor="#FFFF"
+                android:text="灭菌后拍照及扫描" />
+
+            <include
+                layout="@layout/layout_photograph_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"  />
+
+               <!--按钮-->
+            <include
+                layout="@layout/layout_ending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp" />
+
+            <include
+                layout="@layout/layout_ending_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp" />
+
+            <include
+                layout="@layout/layout_ending_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp" />
+
+            <include
+                layout="@layout/layout_ending_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="3dp"
+                android:visibility="visible" />
+
+
+            <include
+                layout="@layout/layout_ending_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:visibility="visible" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

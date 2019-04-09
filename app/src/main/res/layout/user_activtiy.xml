@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sunbg"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true">
+
+        <com.example.styletestdemo.customview.RippleBackground
+            android:id="@+id/main_menu"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="150dp"
+            app:rb_color="#0099CC"
+            app:rb_duration="3000"
+            app:rb_radius="5dp"
+            app:rb_rippleAmount="5"
+            app:rb_scale="6">
+
+            <ImageView
+                android:id="@+id/centerImage"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/meul" />
+        </com.example.styletestdemo.customview.RippleBackground>
+    </LinearLayout>
+
+
+</RelativeLayout>
