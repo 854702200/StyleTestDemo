@@ -117,7 +117,8 @@ public class Module {
                     @Override
                     public void onNext(User1 user) {
 
-                            Log.e("输出==", user.getData().toString());
+                            Log.e("当前输出==", user.getData().toString());
+
                     }
 
                     @Override
